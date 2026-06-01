@@ -22,6 +22,11 @@ import re
 import urllib.parse
 import fitz  # PyMuPDF
 
+# Redirect MuPDF's C-level warning messages to stderr so they never
+# contaminate the JSON that we write to stdout.
+fitz.TOOLS.mupdf_display_errors(False)
+fitz.TOOLS.mupdf_display_warnings(False)
+
 # ── Rendering constants ────────────────────────────────────────────────────
 FONT        = "heit"                    # Helvetica Oblique ≈ italic
 FONT_SIZE   = 8.97                      # pt — matches template data cells

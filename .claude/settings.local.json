@@ -20,7 +20,8 @@
       "Bash(python3 lib/pdf_processor.py templates/bank-intelligence-template.pdf associated-bank-data.json test-output-v4.pdf)",
       "Bash(python3 -c ' *)",
       "Bash(python3 lib/pdf_processor.py templates/bank-intelligence-template.pdf associated-bank-data.json test-output-v5.pdf)",
-      "Bash(python3 lib/pdf_processor.py templates/bank-intelligence-template.pdf associated-bank-data.json test-output-v6.pdf)"
+      "Bash(python3 lib/pdf_processor.py templates/bank-intelligence-template.pdf associated-bank-data.json test-output-v6.pdf)",
+      "Bash(python3 lib/pdf_processor.py templates/bank-intelligence-template.pdf associated-bank-data.json test-output-v7.pdf)"
     ]
   }
 }

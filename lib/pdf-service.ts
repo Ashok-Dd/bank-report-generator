@@ -27,24 +27,40 @@ export async function processTemplatePDF(
     const scriptPath = path.join(process.cwd(), "lib", "pdf_processor.py");
 
     const { stdout, stderr } = await execAsync(
-      `python3 "${scriptPath}" "${templatePath}" "${tmpJson}" "${tmpOutput}"`,
+      `python3 -u "${scriptPath}" "${templatePath}" "${tmpJson}" "${tmpOutput}"`,
       { timeout: 30000 }
     );
 
-    if (stderr && !stdout.includes('"success": true')) {
+    // PyMuPDF may print warning lines to stdout before the JSON result.
+    // Find the last line that looks like a JSON object.
+    const jsonLine =
+      stdout
+        .split("\n")
+        .map((l) => l.trim())
+        .filter((l) => l.startsWith("{"))
+        .pop() ?? "";
+
+    if (!jsonLine) {
       return {
         success: false,
-        error: `PDF processor error: ${stderr.slice(0, 500)}`,
+        error: `PDF processor returned invalid output: ${stdout.slice(0, 300)}`,
       };
     }
 
     let result: { success: boolean; replacedCount?: number; error?: string };
     try {
-      result = JSON.parse(stdout.trim());
+      result = JSON.parse(jsonLine);
     } catch {
       return {
         success: false,
-        error: `PDF processor returned invalid output: ${stdout.slice(0, 200)}`,
+        error: `PDF processor returned invalid output: ${stdout.slice(0, 300)}`,
+      };
+    }
+
+    if (stderr && !result.success) {
+      return {
+        success: false,
+        error: `PDF processor error: ${stderr.slice(0, 500)}`,
       };
     }
 
