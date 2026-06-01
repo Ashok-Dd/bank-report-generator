@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import fitz; print\\(fitz.__version__\\)\")",
+      "Bash(python3 -c \"import pymupdf; print\\(pymupdf.__version__\\)\")",
+      "Bash(python3 -m pip show pymupdf)",
+      "Bash(python3 -m pip show reportlab)",
+      "Bash(pip list *)",
+      "Bash(pip install *)",
+      "Bash(python3 -c \"import fitz; print\\('PyMuPDF', fitz.__version__\\)\")",
+      "Bash(python3 -c \"import pymupdf; print\\('pymupdf', pymupdf.__version__\\)\")",
+      "Bash(python3 -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(C:\\\\Users\\\\ASHOK\\\\anaconda3\\\\python.exe -c \"import fitz; print\\('fitz', fitz.__version__\\)\")",
+      "Bash(C:\\\\Users\\\\ASHOK\\\\anaconda3\\\\python.exe -c \"import pymupdf; print\\(pymupdf.__version__\\)\")",
+      "PowerShell(& \"C:\\\\Users\\\\ASHOK\\\\anaconda3\\\\python.exe\" -c \"import fitz; print\\('fitz', fitz.__version__\\)\")",
+      "PowerShell(python3 -m pip install PyMuPDF 2>&1)",
+      "PowerShell(tail -3)",
+      "Bash(python3 -c \"import fitz; print\\('fitz', fitz.__version__\\)\")",
+      "Bash(python3 lib/pdf_processor.py templates/bank-intelligence-template.pdf associated-bank-data.json test-output.pdf)",
+      "Bash(python3 lib/pdf_processor.py templates/bank-intelligence-template.pdf associated-bank-data.json associated-bank-intelligence-brief.pdf)",
+      "Bash(python3 lib/pdf_processor.py templates/bank-intelligence-template.pdf lib/example-data.json example-output.pdf)",
+      "Bash(curl -s http://localhost:3000/api/generate-pdf -X POST -H \"Content-Type: application/json\" -d \"{\\\\\"data\\\\\": $\\(cat associated-bank-data.json\\)}\" -o /tmp/api-test.pdf -w \"\\\\nHTTP %{http_code} Size: %{size_download} bytes\")",
+      "Bash(curl -s -I http://localhost:3000/api/generate-pdf -X POST -H \"Content-Type: application/json\" -d \"{\\\\\"data\\\\\": $\\(cat associated-bank-data.json\\)}\")",
+      "Bash(curl -v http://localhost:3000/api/generate-pdf -X POST -H \"Content-Type: application/json\" -d \"{\\\\\"data\\\\\": $\\(cat associated-bank-data.json\\)}\" -o /dev/null)"
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "institutionProfile": {
+    "institutionName": "Associated Bank",
+    "headquarters": "Green Bay, Wisconsin, USA",
+    "ticker": "ASB",
+    "exchange": "NYSE",
+    "reportPeriod": "FY 2025 / Q4",
+    "totalAssets": "$41.2 bn",
+    "totalEmployees": "4,700",
+    "clientBase": "Consumer, Commercial & Wealth Mgmt",
+    "geographicFootprint": "Wisconsin, Illinois, Minnesota",
+    "keyStrategicInvestor": "Vanguard 9.1%, BlackRock 7.6%",
+    "anniversaryMilestone": "175th anniversary in 2026",
+    "rows": [
+      { "field": "Institution Name",       "value": "Associated Bank",                    "notes": "Legal name: Associated Banc-Corp", "reference": "[1]" },
+      { "field": "Headquarters",           "value": "Green Bay, Wisconsin, USA",           "notes": "HQ since 1861",                   "reference": "[1]" },
+      { "field": "Ticker / Exchange",      "value": "ASB / NYSE",                          "notes": "Listed since 1986",               "reference": "[1]" },
+      { "field": "Report Period",          "value": "FY 2025 / Q4",                        "notes": "Year-end December 31, 2025",      "reference": "[1]" },
+      { "field": "Total Assets (Latest)",  "value": "$41.2 bn",                            "notes": "As of December 31, 2025",        "reference": "[2]" },
+      { "field": "Total Employees",        "value": "4,700",                               "notes": "Full-time equivalent",           "reference": "[1]" },
+      { "field": "Client Base",            "value": "Consumer, Commercial & Wealth Mgmt", "notes": "1.2M active digital users",      "reference": "[1]" },
+      { "field": "Geographic Footprint",   "value": "Wisconsin, Illinois, Minnesota",      "notes": "230+ branch locations",          "reference": "[1]" },
+      { "field": "Key Strategic Investor", "value": "Vanguard 9.1%, BlackRock 7.6%",      "notes": "As of Q4 2025 13-F filings",    "reference": "[17]" },
+      { "field": "Anniversary Milestone",  "value": "175th anniversary in 2026",           "notes": "Founded Green Bay 1861",         "reference": "[1]" }
+    ]
+  },
+  "financialHighlights": [
+    { "metric": "Net Revenue",          "value": "$1.24B",  "period": "FY 2025",  "yoyChange": "+3.2%",   "notes": "NII + fee income",    "reference": "[1]" },
+    { "metric": "Net Income",           "value": "$312M",   "period": "FY 2025",  "yoyChange": "+5.1%",   "notes": "Record; EPS $2.08",   "reference": "[1]" },
+    { "metric": "Return on Equity",     "value": "9.8%",    "period": "FY 2025",  "yoyChange": "+40bps",  "notes": "Above peer median",   "reference": "[1]" },
+    { "metric": "CET1 Ratio",           "value": "10.2%",   "period": "Q4 2025",  "yoyChange": "+30bps",  "notes": "Above 6% minimum",    "reference": "[2]" },
+    { "metric": "Cost-to-Income Ratio", "value": "59.4%",   "period": "FY 2025",  "yoyChange": "-120bps", "notes": "Digital efficiency",  "reference": "[1]" },
+    { "metric": "Non-Performing Loans", "value": "0.42%",   "period": "Q4 2025",  "yoyChange": "+5bps",   "notes": "CRE uptick",          "reference": "[2]" }
+  ],
+  "executiveLeadership": {
+    "ceo": "Andrew J. Harmening",
+    "cfo": "Derek S. Meyer",
+    "coo": "John B. Williams",
+    "cro": "Christopher Del Moral-Niles",
+    "cto": "Monica L. Bauer",
+    "cco": "Steven C. Zandpour",
+    "headOfRetailBanking": "Patrick S. Ehmann",
+    "backgroundNotes": [
+      "Andrew Harmening joined as CEO in 2021 from Bank of the West, where he led Consumer Banking.",
+      "Derek Meyer has held the CFO role since 2020, with prior experience at Wintrust Financial.",
+      "Monica Bauer leads the bank's $150M digital transformation initiative launched in 2023.",
+      "The leadership team has an average tenure of 6 years at Associated Bank."
+    ],
+    "execStatuses": ["Active", "Active", "Active", "Active", "Active", "Active", "Active"],
+    "execMandates": [
+      "Lead overall strategy & stakeholder relations",
+      "Oversee financial reporting & investor relations",
+      "Drive operational excellence & execution",
+      "Manage enterprise risk & credit quality",
+      "Lead technology strategy & digital transformation",
+      "Ensure regulatory compliance & ethics",
+      "Grow retail banking revenue & CX"
+    ],
+    "execReferences": ["[1]", "[1]", "[1]", "[1]", "[1]", "[1]", "[1]"]
+  },
+  "boardChanges": [
+    { "directorName": "Judith P. Docter",    "event": "Retired",                  "effectiveDate": "May 2024",  "relevance": "Led Audit Committee 8 yrs", "reference": "[3]" },
+    { "directorName": "Cory L. Nettles",     "event": "Appointed",                "effectiveDate": "Sep 2024",  "relevance": "Private equity & urban dev", "reference": "[3]" },
+    { "directorName": "Suzanne M. Badawi",   "event": "Appointed - Audit Chair",  "effectiveDate": "Jan 2025",  "relevance": "Former CFO, 2 regional banks","reference": "[4]" },
+    { "directorName": "Thomas R. Gendron",   "event": "Re-elected",               "effectiveDate": "Apr 2025",  "relevance": "Risk Committee Chair, 12 yrs","reference": "[3]" },
+    { "directorName": "Karen T. van Lith",   "event": "Appointed",                "effectiveDate": "Jun 2025",  "relevance": "Fintech & payments, Mastercard","reference":"[4]"}
+  ],
+  "strategicPriorities": [
+    { "priority": "Digital Transformation", "details": "Cloud-native core banking migration $150M", "timeline": "2023-2026", "keyOutcome": "20% cost reduction",       "reference": "[5]" },
+    { "priority": "Commercial Growth",       "details": "Middle-market lending IL & MN expansion",  "timeline": "2025-2027", "keyOutcome": "Portfolio to $18B by 2027", "reference": "[5]" },
+    { "priority": "Fee Diversification",     "details": "Scale wealth mgmt & treasury services",    "timeline": "Ongoing",   "keyOutcome": "30% non-interest income",   "reference": "[6]" },
+    { "priority": "Operational Efficiency",  "details": "Branch optimisation & back-office automation","timeline":"2024-2025","keyOutcome": "C/I below 57% by 2026",   "reference": "[6]" },
+    { "priority": "ESG Leadership",          "details": "Net-zero target; D&I goals; CRA invest",   "timeline": "2025-2030", "keyOutcome": "Top-quartile ESG score",    "reference": "[7]" }
+  ],
+  "technologyPosture": {
+    "coreBankingPlatform": { "details": "Migrating to Thought Machine Vault; phased from Q1 2024", "status": "In Progress",  "reference": "[8]" },
+    "cloudStrategy":       { "details": "AWS primary; hybrid for regulated workloads; 60% migrated","status": "Active",       "reference": "[8]" },
+    "aiMlInitiatives":     { "details": "AI credit decisioning, fraud detection 93% accuracy",      "status": "Production",   "reference": "[9]" },
+    "cybersecurityPosture":{ "details": "Zero-trust architecture; ISO 27001; SOC 2 Type II",        "status": "Strong",       "reference": "[9]" },
+    "digitalMobileBanking":{ "details": "New mobile app Feb 2025; 1.2M users; 4.7 App Store",      "status": "Live",         "reference": "[10]" },
+    "dataAnalytics":       { "details": "Snowflake platform; real-time customer 360 view",          "status": "Operational",  "reference": "[10]" },
+    "regtechSuptech":      { "details": "Actimize AML monitoring; Axiom regulatory reporting",      "status": "Deployed",     "reference": "[11]" }
+  },
+  "governance": [
+    { "area": "AML / CTF Programme",      "details": "Risk-based AML; enhanced due diligence",      "effective": "Ongoing",   "keyMechanism": "Actimize monitoring; quarterly review", "reference": "[11]" },
+    { "area": "Basel III/IV Compliance",  "details": "CET1 10.2%; Tier 1 8.7%; NSFR 118%",         "effective": "Q4 2025",   "keyMechanism": "Capital planning; stress test 2x/yr",  "reference": "[2]"  },
+    { "area": "GDPR / Data Privacy",      "details": "CCPA & GLBA compliance; data governance",     "effective": "Ongoing",   "keyMechanism": "Privacy-by-design; annual DPIA",       "reference": "[12]" },
+    { "area": "Board Audit Committee",    "details": "5 independent directors; quarterly meetings",  "effective": "Ongoing",   "keyMechanism": "External auditor Deloitte; hotline",   "reference": "[3]"  },
+    { "area": "Regulatory Examinations",  "details": "OCC primary; Q2 2025 exam no material findings","effective":"Q2 2025",  "keyMechanism": "Regulatory relations team; readiness", "reference": "[13]" },
+    { "area": "Whistleblower Framework",  "details": "Anonymous hotline; non-retaliation policy",   "effective": "Ongoing",   "keyMechanism": "Third-party hotline; board reporting", "reference": "[12]" }
+  ],
+  "riskEvents": [
+    { "incident": "CRE office NPL uptick +12bps",        "date": "Q3 2025", "category": "Credit Risk",     "impact": "Moderate; $28M provisioning", "reference": "[14]" },
+    { "incident": "Phishing BEC attempt on treasury",    "date": "Aug 2024","category": "Cyber Risk",      "impact": "Low; contained, no loss",     "reference": "[15]" },
+    { "incident": "OCC consent order BSA/AML gaps",      "date": "Mar 2024","category": "Regulatory Risk", "impact": "High; remediation ongoing",   "reference": "[13]" },
+    { "incident": "Rate sensitivity NII compression",    "date": "Q2 2025", "category": "Market Risk",     "impact": "Low; hedging strategy active","reference": "[2]"  },
+    { "incident": "Vendor outage - core system 4 hours", "date": "Nov 2024","category": "Operational Risk","impact": "Low; no data loss or breach",  "reference": "[9]"  }
+  ],
+  "riskResponseActions": [
+    "Enhanced CRE portfolio stress testing with quarterly granular sub-sector reviews.",
+    "Deployed next-gen email security gateway; mandatory client authentication training.",
+    "Appointed dedicated BSA/AML remediation director; weekly OCC progress updates.",
+    "Board Risk Committee elevated to monthly cadence until consent order resolved."
+  ],
+  "esgCommitments": [
+    { "area": "Net Zero / Emissions",  "commitment": "Net-zero Scope 1&2 by 2030; Scope 3 by 2040", "progress": "32% reduction since 2019",    "period": "2025 Report", "reference": "[7]"  },
+    { "area": "Sustainable Finance",   "commitment": "$5B green lending by 2028",                    "progress": "$2.1B deployed to date",      "period": "2025 Report", "reference": "[7]"  },
+    { "area": "Diversity & Inclusion", "commitment": "40% women in senior leadership by 2027",       "progress": "34% achieved FY 2025",        "period": "2025 Report", "reference": "[7]"  },
+    { "area": "Community Investment",  "commitment": "$500M CRA lending over 5 years",               "progress": "$210M deployed through 2025", "period": "2025 CRA",    "reference": "[16]" },
+    { "area": "ESG Reporting Standard","commitment": "TCFD-aligned; GRI Standards reporting",        "progress": "3rd consecutive TCFD report", "period": "Annual",      "reference": "[7]"  },
+    { "area": "Responsible Lending",   "commitment": "No predatory products; fair lending programme","progress": "0 violations last 3 exams",   "period": "Ongoing",     "reference": "[13]" }
+  ],
+  "engagementTargets": [
+    { "role": "Chief Financial Officer",  "contact": "Derek S. Meyer",             "engagementHook": "Margin compression -- fee income & treasury optimisation solutions" },
+    { "role": "Chief Technology Officer", "contact": "Monica L. Bauer",            "engagementHook": "Core migration to Thought Machine creates RegTech integration opportunity" },
+    { "role": "Chief Risk Officer",       "contact": "Christopher Del Moral-Niles","engagementHook": "OCC consent order -- AML/transaction monitoring enhancement priority" },
+    { "role": "Head of Retail Banking",  "contact": "Patrick S. Ehmann",          "engagementHook": "New mobile app launch -- personalisation & cross-sell analytics ROI" },
+    { "role": "Chief Compliance Officer", "contact": "Steven C. Zandpour",         "engagementHook": "Regulatory reporting automation expansion; DORA readiness workshop" }
+  ],
+  "keyEngagementThemes": [
+    { "executive": "Derek S. Meyer (CFO)",           "theme": "Treasury yield optimisation tied to 30% fee income target" },
+    { "executive": "Monica L. Bauer (CTO)",          "theme": "Cloud-native core banking integration; pre-built Vault connectors" },
+    { "executive": "C. Del Moral-Niles (CRO)",       "theme": "OCC remediation lead -- AML monitoring uplift case studies" },
+    { "executive": "Patrick S. Ehmann (Retail)",     "theme": "Mobile personalisation ROI; peer bank cross-sell lift data" },
+    { "executive": "Steven C. Zandpour (CCO)",       "theme": "Regulatory change management platform; DORA readiness roadmap" }
+  ],
+  "references": [
+    "Associated Bank, Q4 2025 Earnings Release, January 2026. investor.associatedbank.com",
+    "Associated Bank, Q4 2025 Investor Supplement, January 2026. investor.associatedbank.com",
+    "Associated Bank, 2025 Proxy Statement, April 2025. investor.associatedbank.com",
+    "Associated Bank, Form 8-K Board Committee Changes, January 2025. SEC EDGAR",
+    "Associated Bank, 2025 Annual Report -- Letter to Shareholders, March 2026",
+    "Associated Bank, Investor Day Presentation, November 2024. investor.associatedbank.com",
+    "Associated Bank, 2025 ESG Report, April 2026. associatedbank.com/esg",
+    "Associated Bank, Digital Transformation Update, Q3 2025 Earnings Call, Oct 2025",
+    "Associated Bank, Form 10-K 2025 Technology Risk Section, February 2026. SEC EDGAR",
+    "Associated Bank, Mobile Banking App Launch Press Release, February 2025",
+    "Associated Bank, Form 10-K 2025 Compliance and AML Section, Feb 2026. SEC EDGAR",
+    "Associated Bank, Privacy Policy and Data Governance Framework, 2025",
+    "OCC Supervisory Information -- Consent Order, March 2024. OCC.gov",
+    "Associated Bank, Q3 2025 Earnings Call CRE Portfolio Comments, October 2025",
+    "Associated Bank, Cybersecurity Incident Response Update, September 2024",
+    "Associated Bank, 2025 CRA Performance Evaluation Summary, March 2026"
+  ]
+}

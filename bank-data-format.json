@@ -1,0 +1,250 @@
+{
+  "_description": "Bank Intelligence Brief — Data Format Template",
+  "_usage": "Replace every placeholder value with actual bank data. Remove the _description and _usage fields before use. All arrays can be shortened or extended to match available data (max rows noted per section).",
+
+  "institutionProfile": {
+    "_note": "Top-level fields feed the page headers; 'rows' feeds the Institution Profile table (max 10 rows).",
+    "institutionName": "Full Legal Institution Name",
+    "headquarters": "City, State, Country",
+    "ticker": "TICK",
+    "exchange": "NYSE",
+    "reportPeriod": "FY YYYY / QN",
+    "totalAssets": "$XX.X bn",
+    "totalEmployees": "N,NNN",
+    "clientBase": "Consumer, Commercial & Wealth Mgmt",
+    "geographicFootprint": "Region1, Region2, Region3",
+    "keyStrategicInvestor": "Investor1 X.X%, Investor2 X.X%",
+    "anniversaryMilestone": "NNth anniversary in YYYY",
+    "rows": [
+      { "field": "Institution Name",       "value": "Full Legal Name",              "notes": "Legal / trade name note",          "reference": "[1]"  },
+      { "field": "Headquarters",           "value": "City, State, Country",         "notes": "HQ established note",              "reference": "[1]"  },
+      { "field": "Ticker / Exchange",      "value": "TICK / EXCHANGE",              "notes": "Listing history note",             "reference": "[1]"  },
+      { "field": "Report Period",          "value": "FY YYYY / QN",                 "notes": "Fiscal year-end date",             "reference": "[1]"  },
+      { "field": "Total Assets (Latest)",  "value": "$XX.X bn",                     "notes": "As of date",                       "reference": "[2]"  },
+      { "field": "Total Employees",        "value": "N,NNN",                        "notes": "FTE or headcount note",            "reference": "[1]"  },
+      { "field": "Client Base",            "value": "Consumer, Commercial & Wealth","notes": "Active user count or segment note","reference": "[1]"  },
+      { "field": "Geographic Footprint",   "value": "Region1, Region2, Region3",    "notes": "Branch or office count",          "reference": "[1]"  },
+      { "field": "Key Strategic Investor", "value": "Investor1 X.X%, Investor2 X.X%","notes": "Filing date / source",           "reference": "[N]"  },
+      { "field": "Anniversary Milestone",  "value": "NNth anniversary in YYYY",     "notes": "Founded note",                    "reference": "[1]"  }
+    ]
+  },
+
+  "financialHighlights": [
+    {
+      "_note": "Up to 6 rows. Metric name must match exactly to map to the correct template row.",
+      "metric": "Net Revenue",
+      "value": "$X.XXB",
+      "period": "FY YYYY",
+      "yoyChange": "+X.X%",
+      "notes": "Composition or driver note",
+      "reference": "[1]"
+    },
+    {
+      "metric": "Net Income",
+      "value": "$XXXM",
+      "period": "FY YYYY",
+      "yoyChange": "+X.X%",
+      "notes": "EPS or record note",
+      "reference": "[1]"
+    },
+    {
+      "metric": "Return on Equity",
+      "value": "X.X%",
+      "period": "FY YYYY",
+      "yoyChange": "+XXbps",
+      "notes": "Peer comparison note",
+      "reference": "[1]"
+    },
+    {
+      "metric": "CET1 Ratio",
+      "value": "XX.X%",
+      "period": "QN YYYY",
+      "yoyChange": "+XXbps",
+      "notes": "Regulatory minimum note",
+      "reference": "[2]"
+    },
+    {
+      "metric": "Cost-to-Income Ratio",
+      "value": "XX.X%",
+      "period": "FY YYYY",
+      "yoyChange": "-XXXbps",
+      "notes": "Efficiency driver note",
+      "reference": "[1]"
+    },
+    {
+      "metric": "Non-Performing Loans",
+      "value": "X.XX%",
+      "period": "QN YYYY",
+      "yoyChange": "+Xbps",
+      "notes": "Sector or portfolio note",
+      "reference": "[2]"
+    }
+  ],
+
+  "executiveLeadership": {
+    "_note": "Exec arrays must be in order: CEO, CFO, COO, CRO, CTO, CCO, Head of Retail Banking (7 entries each).",
+    "ceo": "First Last",
+    "cfo": "First Last",
+    "coo": "First Last",
+    "cro": "First Last",
+    "cto": "First Last",
+    "cco": "First Last",
+    "headOfRetailBanking": "First Last",
+    "backgroundNotes": [
+      "Background note for executive 1 (max ~150 chars each).",
+      "Background note for executive 2.",
+      "Background note for executive 3.",
+      "Background note for executive 4."
+    ],
+    "execStatuses": ["Active", "Active", "Active", "Active", "Active", "Active", "Active"],
+    "execMandates": [
+      "Lead overall strategy & stakeholder relations",
+      "Oversee financial reporting & investor relations",
+      "Drive operational excellence & execution",
+      "Manage enterprise risk & credit quality",
+      "Lead technology strategy & digital transformation",
+      "Ensure regulatory compliance & ethics",
+      "Grow retail banking revenue & CX"
+    ],
+    "execReferences": ["[1]", "[1]", "[1]", "[1]", "[1]", "[1]", "[1]"]
+  },
+
+  "boardChanges": [
+    {
+      "_note": "Up to 5 rows.",
+      "directorName": "First Last",
+      "event": "Appointed / Retired / Re-elected / Appointed - Committee Chair",
+      "effectiveDate": "Mon YYYY",
+      "relevance": "Committee role or expertise note (max ~60 chars)",
+      "reference": "[3]"
+    },
+    { "directorName": "First Last", "event": "Appointed",  "effectiveDate": "Mon YYYY", "relevance": "Expertise note", "reference": "[3]" },
+    { "directorName": "First Last", "event": "Appointed",  "effectiveDate": "Mon YYYY", "relevance": "Expertise note", "reference": "[4]" },
+    { "directorName": "First Last", "event": "Re-elected", "effectiveDate": "Mon YYYY", "relevance": "Committee role", "reference": "[3]" },
+    { "directorName": "First Last", "event": "Appointed",  "effectiveDate": "Mon YYYY", "relevance": "Expertise note", "reference": "[4]" }
+  ],
+
+  "strategicPriorities": [
+    {
+      "_note": "Up to 5 rows.",
+      "priority": "Priority Label (max ~40 chars)",
+      "details": "Brief description of the initiative (max ~80 chars)",
+      "timeline": "YYYY-YYYY",
+      "keyOutcome": "Target metric or outcome (max ~60 chars)",
+      "reference": "[5]"
+    },
+    { "priority": "Priority 2", "details": "Initiative detail", "timeline": "Ongoing", "keyOutcome": "Outcome target", "reference": "[5]" },
+    { "priority": "Priority 3", "details": "Initiative detail", "timeline": "YYYY-YYYY", "keyOutcome": "Outcome target", "reference": "[6]" },
+    { "priority": "Priority 4", "details": "Initiative detail", "timeline": "YYYY-YYYY", "keyOutcome": "Outcome target", "reference": "[6]" },
+    { "priority": "Priority 5", "details": "Initiative detail", "timeline": "YYYY-YYYY", "keyOutcome": "Outcome target", "reference": "[7]" }
+  ],
+
+  "technologyPosture": {
+    "_note": "Each dimension has details, status, and reference.",
+    "coreBankingPlatform": { "details": "Platform name and migration status",       "status": "In Progress", "reference": "[8]"  },
+    "cloudStrategy":       { "details": "Cloud provider and migration % complete",  "status": "Active",      "reference": "[8]"  },
+    "aiMlInitiatives":     { "details": "AI/ML use cases and accuracy metrics",     "status": "Production",  "reference": "[9]"  },
+    "cybersecurityPosture":{ "details": "Frameworks and certifications held",       "status": "Strong",      "reference": "[9]"  },
+    "digitalMobileBanking":{ "details": "Mobile app version/rating and user count", "status": "Live",        "reference": "[10]" },
+    "dataAnalytics":       { "details": "Data platform and key use case",           "status": "Operational", "reference": "[10]" },
+    "regtechSuptech":      { "details": "RegTech tooling and primary use case",     "status": "Deployed",    "reference": "[11]" }
+  },
+
+  "governance": [
+    {
+      "_note": "Up to 6 rows.",
+      "area": "Governance Area Label",
+      "details": "Brief description (max ~80 chars)",
+      "effective": "Ongoing / QN YYYY",
+      "keyMechanism": "Key control or review mechanism (max ~80 chars)",
+      "reference": "[11]"
+    },
+    { "area": "Area 2", "details": "Description", "effective": "Ongoing", "keyMechanism": "Mechanism", "reference": "[2]"  },
+    { "area": "Area 3", "details": "Description", "effective": "Ongoing", "keyMechanism": "Mechanism", "reference": "[12]" },
+    { "area": "Area 4", "details": "Description", "effective": "Ongoing", "keyMechanism": "Mechanism", "reference": "[3]"  },
+    { "area": "Area 5", "details": "Description", "effective": "QN YYYY", "keyMechanism": "Mechanism", "reference": "[13]" },
+    { "area": "Area 6", "details": "Description", "effective": "Ongoing", "keyMechanism": "Mechanism", "reference": "[12]" }
+  ],
+
+  "riskEvents": [
+    {
+      "_note": "Up to 5 rows.",
+      "incident": "Brief incident description (max ~100 chars)",
+      "date": "QN YYYY",
+      "category": "Credit / Cyber / Regulatory / Market / Operational Risk",
+      "impact": "Severity and financial/operational impact (max ~80 chars)",
+      "reference": "[14]"
+    },
+    { "incident": "Incident 2", "date": "Mon YYYY", "category": "Cyber Risk",      "impact": "Impact note", "reference": "[15]" },
+    { "incident": "Incident 3", "date": "Mon YYYY", "category": "Regulatory Risk", "impact": "Impact note", "reference": "[13]" },
+    { "incident": "Incident 4", "date": "QN YYYY",  "category": "Market Risk",     "impact": "Impact note", "reference": "[2]"  },
+    { "incident": "Incident 5", "date": "Mon YYYY", "category": "Operational Risk","impact": "Impact note", "reference": "[9]"  }
+  ],
+
+  "riskResponseActions": [
+    "Response action 1 — what was done and measurable outcome (max ~150 chars).",
+    "Response action 2.",
+    "Response action 3.",
+    "Response action 4."
+  ],
+
+  "esgCommitments": [
+    {
+      "_note": "Up to 6 rows.",
+      "area": "ESG Area Label",
+      "commitment": "Commitment statement with target (max ~80 chars)",
+      "progress": "Progress metric to date (max ~60 chars)",
+      "period": "YYYY Report",
+      "reference": "[7]"
+    },
+    { "area": "Area 2", "commitment": "Commitment statement", "progress": "Progress to date", "period": "YYYY Report", "reference": "[7]"  },
+    { "area": "Area 3", "commitment": "Commitment statement", "progress": "Progress to date", "period": "YYYY Report", "reference": "[7]"  },
+    { "area": "Area 4", "commitment": "Commitment statement", "progress": "Progress to date", "period": "YYYY CRA",   "reference": "[16]" },
+    { "area": "Area 5", "commitment": "Commitment statement", "progress": "Progress to date", "period": "Annual",     "reference": "[7]"  },
+    { "area": "Area 6", "commitment": "Commitment statement", "progress": "Progress to date", "period": "Ongoing",    "reference": "[13]" }
+  ],
+
+  "engagementTargets": [
+    {
+      "_note": "Up to 5 rows — one per target executive.",
+      "role": "Executive Title (e.g. Chief Financial Officer)",
+      "contact": "First Last",
+      "engagementHook": "Primary engagement angle tied to a known initiative or pain point (max ~150 chars)"
+    },
+    { "role": "Chief Technology Officer", "contact": "First Last", "engagementHook": "Engagement hook for CTO" },
+    { "role": "Chief Risk Officer",       "contact": "First Last", "engagementHook": "Engagement hook for CRO" },
+    { "role": "Head of Retail Banking",   "contact": "First Last", "engagementHook": "Engagement hook for Retail Head" },
+    { "role": "Chief Compliance Officer", "contact": "First Last", "engagementHook": "Engagement hook for CCO" }
+  ],
+
+  "keyEngagementThemes": [
+    {
+      "_note": "Up to 5 rows — one per target executive. 'executive' includes name + role for the theme table.",
+      "executive": "First Last (Role)",
+      "theme": "Core talking point aligned to strategic priority (max ~150 chars)"
+    },
+    { "executive": "First Last (CTO)",    "theme": "Theme for CTO"    },
+    { "executive": "First Last (CRO)",    "theme": "Theme for CRO"    },
+    { "executive": "First Last (Retail)", "theme": "Theme for Retail" },
+    { "executive": "First Last (CCO)",    "theme": "Theme for CCO"    }
+  ],
+
+  "references": [
+    "[1] Institution Name, Report Title, Month YYYY. domain.com",
+    "[2] Institution Name, Report Title, Month YYYY. domain.com",
+    "[3] Institution Name, Proxy Statement, Month YYYY. domain.com",
+    "[4] Institution Name, Form 8-K Filing, Month YYYY. SEC EDGAR",
+    "[5] Institution Name, Annual Report, Month YYYY",
+    "[6] Institution Name, Investor Day Presentation, Month YYYY",
+    "[7] Institution Name, ESG Report, Month YYYY. domain.com/esg",
+    "[8] Institution Name, Digital Transformation Update, QN YYYY",
+    "[9] Institution Name, Form 10-K Technology Risk, Month YYYY. SEC EDGAR",
+    "[10] Institution Name, Mobile Banking Press Release, Month YYYY",
+    "[11] Institution Name, Form 10-K Compliance Section, Month YYYY. SEC EDGAR",
+    "[12] Institution Name, Privacy Policy & Data Governance, YYYY",
+    "[13] Regulator, Supervisory Action / Consent Order, Month YYYY. regulator.gov",
+    "[14] Institution Name, Earnings Call Comments, Month YYYY",
+    "[15] Institution Name, Incident Response Update, Month YYYY",
+    "[16] Institution Name, CRA Performance Evaluation, Month YYYY"
+  ]
+}

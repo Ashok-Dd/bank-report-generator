@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python lib/pdf_processor.py \"templates/bank-intelligence-template.pdf\" \"associated-bank-data.json\" \"associated-bank-intelligence-brief.pdf\")",
+      "Bash(python lib/pdf_processor.py \"templates/bank-intelligence-template.pdf\" \"lib/example-data.json\" \"example-output.pdf\")",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(npx playwright *)",
+      "Bash(python lib/pdf_processor.py \"templates/bank-intelligence-template.pdf\" \"lib/example-data.json\" \"example-from-app.pdf\")",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(python -c ' *)",
+      "Bash(node -e ' *)",
+      "Bash(npx playwright@1.60.0 --version)",
+      "Bash(node -e \"require.resolve\\('C:/Users/ASHOK/AppData/Roaming/npm/node_modules/playwright/index.js'\\)\")",
+      "Bash(npm install *)",
+      "Bash(node -e \"require\\('playwright'\\); console.log\\('found'\\)\")",
+      "Bash(npx tsc *)",
+      "Bash(python3 lib/pdf_processor.py templates/bank-intelligence-template.pdf associated-bank-data.json test-output-v2.pdf)",
+      "Bash(python3 lib/pdf_processor.py templates/bank-intelligence-template.pdf associated-bank-data.json test-output-v3.pdf)",
+      "Bash(python3 lib/pdf_processor.py templates/bank-intelligence-template.pdf associated-bank-data.json test-output-v4.pdf)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 lib/pdf_processor.py templates/bank-intelligence-template.pdf associated-bank-data.json test-output-v5.pdf)",
+      "Bash(python3 lib/pdf_processor.py templates/bank-intelligence-template.pdf associated-bank-data.json test-output-v6.pdf)"
+    ]
+  }
+}
